@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="halloween">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live-Coding</title>
+    <script src="./assets/js/main.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss">
+      @layer base {
+
+        :root{
+          --white : #FFFFFF;
+          --gray : #999999;
+          --bg : #3C3636;
+          --beige : #E8BF96;
+        }
+        @font-face {
+          font-family: "new-york";
+          src: url(./assets/font/NewYork\ PERSONAL\ USE.otf);
+        }
+        
+        *{
+          box-sizing: border-box;
+        }
+
+        border{
+          color: #333337;
+        }
+        button{
+          cursor: pointer;
+        }
+        .pic1{
+          width: 300px;
+          height: 450.81px;
+        }
+        html{
+          font-size: 10px;
+        }
+        .navbar{
+          border-bottom: 0.5px solid var(--bg);
+        }
+
+        li{
+          font-size: 1.3rem;
+        }
+
+        .exp article{
+          & h2{
+            font-size: 9rem;
+            font-family: "new-york";
+            margin-bottom: -15px;
+            color: var(--white);
+    
+          }
+
+          .fexp{
+            
+              color: var(--beige);
+            
+          }
+          
+          & p{
+            color: var(--gray);
+            font-size: 1.6rem;
+          }
+        }
+
+        img{
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="z-50 absolute">
+      <div class="navbar bg-[var(--bg)] p-8 fixed ">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl"><img src="./assets/img/6.png" alt=""></a>
+        </div>
+        <div class="">
+          <ul class="menu menu-horizontal px-1 uppercase">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Work</a></li>
+            <li><a>Service</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Award</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    
+    </header>
+    <!-- MAIN    MAIN   MAIN   MAIN   MAIN  -->
+    <main class="">
+      <div class="flex justify-center static mb-[350px]">
+        <section class=" one h-[1356px] w-[1290px] -z-20 bg-center bg-no-repeat bg-[url(./assets/img/19.png)] ">
+          <div class="relative  top-[330px]">
+            <div class="text-center ">
+              <div class="font-['new-york'] justify-center  ">
+                <button><img class="z-10" src="./assets/img/open lightbox.svg" alt=""></button>
+                <h1 class="text-[20rem] -mb-44  font-normal">Unrivaled</h1>
+                <h1 class="text-[20rem] -mb-10 font-normal">Shally</h1>
+                <p class="text-[4rem] pt-4 -mb-2">A Creative <span class="text-[var(--beige)]">Fashion</span></p>
+                <p class="text-[4rem]">Designer</p>
+                
+                
+              </div>
+            </div>
+          </div>
+
+          <article>
+            <div class="pic1 absolute top-[650px] -z-10"><img class="" src="./assets/img/22.jpeg" alt=""></div>
+            <div class="flex justify-end">
+              <div class="pic2 absolute top-[280px]  -z-10"><img class="" src="./assets/img/gif/daisy.gif" alt=""></div>
+            </div>
+            <div class="flex justify-center ">
+              <div class="pic3 absolute top-[1200px] -z-10"><img class="" src="./assets/img/17.jpeg" alt=""></div>
+            </div>
+            <div class="flex justify-end ">
+              <div class="absolute top-[1250px] mr-10">
+                <p class="w-[251px] h-[138px] text-[1.7rem] text-[var(--gray)]">Working as a <span class="text-[var(--white)]">creative and
+                  outsource</span> your fashion design
+                  project and get it quickly
+                  done and delivered remotely
+                  online</p>
+              </div>
+            </div>
+            <div class="flex justify-start ">
+              <div>
+              </div>
+              
+              <div class="absolute top-[1260px] ml-24">
+                <img class="absolute -left-24" src="./assets/img/10.png" alt="">
+                
+                <div class="ml-20">
+                  <img class="mb-2"src="./assets/img/18.png" alt="">
+                  <p class="w-[251px] h-[138px] text-[1.7rem] text-[var(--white)] ">Fashion</p>
+                  <p class="w-[251px] h-[138px] text-[1.7rem] text-[var(--white)] absolute top-20"> Week - 2020</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        
+      </div>
+      <div class="divider mx-20"></div>
+      <section class="h-[776px] p-[100px] ">
+        
+        <div class="">
+          <div class=" text-center">
+            <div class="flex justify-center content-center flex-col" >
+              <h1 class="font-normal font-['new-york'] text-[90px]">Fashion for passion</h1>
+              <h1 class="font-normal font-['new-york'] text-[90px]">& life style</h1>
+              <div class="w-[600px] self-center ">
+              <p class=" text-[1.7rem] mb-36 ">
+                We formulate intentionally crafted supplements for thoughtful people like
+                you – using only the highest quality ingredients at effective doses.
+                Empowering you to take control of your wellness, look and feel great, and
+                live a life brimming with energy.
+              </p>
+              <button class="w-[180px] h-[80px] rounded-full btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Check My Works</button>
+            </div>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider mx-20"></div>
+      <section class="p-[100px] mx-[6vw] mb-[90px]">
+        <article>
+          <h2 class="font-normal font-['new-york'] text-[90px] -mb-16">Selected</h2>
+          <h2 class="font-normal font-['new-york'] text-[90px]">works</h2>
+        </article>
+        <article>
+          <div class="border-solid border-2 border-[var(--bg)] w-56 absolute left-[250px] -bottom-[1544px]" ></div>
+          <div class="flex flex-col absolute left-[420.69px]">
+            
+            <p>Creative work of natural source from, We select only those</p>
+            <p>modern works also my planet your products.</p>
+        </div>
+        <div class="flex justify-end">
+
+          <button  class=" w-[180px] h-[80px] rounded-full btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">View All Works</button>
+        </div>    
+        </article>
+      </section>
+
+      <section class=" h-[1157.53px] flex justify-around">
+        <article>
+          <img class="w-[659.89px] h-[900px] object-cover"  src="./assets/img/1.jpeg" alt="">
+          <div class="ml-20 absolute top-[3200px] text-white">
+            <img class="mb-2"src="./assets/img/18.png" alt="">
+            <p class="w-[251px] h-[138px] text-[2rem] text-[var(--white)] -mb-48">DEVELOPMENT</p>
+            <h2 class="font-normal font-['new-york'] text-[6rem] -mb-8">Stefanie</h2>
+            <h2 class="font-normal font-['new-york'] text-[6rem]">Brückler</h2>
+          </div>
+        </article>
+        <article class="pt-96">
+            
+
+              <div>
+                <img class="w-[440px] h-[600px] object-cover"  src="./assets/img/2.jpeg" alt="">
+                <div class="ml-20 absolute top-[3450px] text-white">
+                  <img class="mb-2"src="./assets/img/18.png" alt="">
+                  <p class="w-[251px] h-[138px] text-[2rem] text-[var(--white)] -mb-48">CREATIVE</p>
+                  <h2 class="font-normal font-['new-york'] text-[6rem] -mb-8">Shelby</h2>
+                  <h2 class="font-normal font-['new-york'] text-[6rem]">Hypol</h2>
+                </div>
+              </div>
+            </article>
+      </section>
+
+      <section class=" h-[1157.53px] flex justify-around">
+
+        <article class="pt-96">
+            
+
+          <div>
+            <img class="w-[440px] h-[600px] object-cover"  src="./assets/img/4.jpeg" alt="">
+            <div class="ml-20 absolute top-[4600px] text-white">
+              <img class="mb-2"src="./assets/img/18.png" alt="">
+              <p class="w-[251px] h-[138px] text-[2rem] text-[var(--white)] -mb-48">WEB DESIGN</p>
+              <h2 class="font-normal font-['new-york'] text-[6rem] -mb-8">Visual</h2>
+              <h2 class="font-normal font-['new-york'] text-[6rem]">identity</h2>
+            </div>
+          </div>
+        </article>
+        <article>
+          <img class="w-[659.89px] h-[900px] object-cover"  src="./assets/img/5.jpeg" alt="">
+          <div class="ml-20 absolute top-[4400px] text-white">
+            <img class="mb-2"src="./assets/img/18.png" alt="">
+            <p class="w-[251px] h-[138px] text-[2rem] text-[var(--white)] -mb-48">BRANDING</p>
+            <h2 class="font-normal font-['new-york'] text-[6rem] -mb-8">Etienne</h2>
+            <h2 class="font-normal font-['new-york'] text-[6rem]">Godiard</h2>
+          </div>
+        </article>
+        
+      </section>
+      <section class="flex justify-center">
+        <div class="w-[80%]">
+          <div class="flex justify-between text-[1.3rem]">
+            <p>Service</p>
+            <p class="text-[var(--gray)]">My Experience In This Area</p>
+            <p> Let's Talk</p>
+          </div>
+          <div class="divider"></div>
+        </div>
+      </section>
+
+      <section class="exp flex flex-col justify-center content-center text-center mt-[84px] mb-[500px] mx-[10%]">
+        <article>
+          <h2 class="fexp">Costume</h2>
+          <p>Cloth & Wearing</p>
+        </article>
+        <article>
+          <h2>Acting</h2>
+          <p>Character</p>
+        </article>
+        <article>
+          <h2>Modelling</h2>
+          <p>Fashion & Life Style</p>
+        </article>
+        <article>
+          <h2>Artist</h2>
+          <p>Creative Designer</p>
+        </article>
+        <div class="flex justify-end -mt-[500px]" >
+          <img class="w-[220px]" src="./assets/img/16.jpeg" alt="">
+        </div>
+        <div class="absolute top-[5800px]">
+          <img class="w-[330px] " src="./assets/img/17.jpeg" alt="">
+        </div>
+      </section>
+
+
+    </main>
+      <!--! FOOTER    FOOTER   FOOTER   FOOTER   FOOTER  -->
+      <div class="content-end">
+        <footer class="footer  bg-base-200 text-base-content p-10">
+          <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+          <form>
+            <h6 class="footer-title">Newsletter</h6>
+            <fieldset class="form-control w-80">
+              <label class="label">
+                <span class="label-text">Enter your email address</span>
+              </label>
+              <div class="join">
+                <input
+                  type="text"
+                  placeholder="username@site.com"
+                  class="input input-bordered join-item" />
+                <button class="btn btn-primary join-item">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+        </footer>
+      </div>
+      
+      
+      
+    
+    
+    
+
+  </body>
+</html>
